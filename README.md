@@ -12,10 +12,20 @@ Muestra el estado actual del repositorio, incluyendo archivos modificados, archi
 ```
 git status
 ```
+* ### Trabajar con repositorios remotos
+Agrega un repositorio remoto (por ejemplo, en GitHub) con el nombre origin. Luego, puedes subir cambios con.
+```
+git remote add origin <url_del_repositorio>
+```
 ## 2. Clonar repositorio
 Descarga un repositorio remoto (por ejemplo, de GitHub, GitLab, etc.) en tu máquina local. Crea una copia completa del repositorio, incluyendo su historial.
 ```
-git clone https://github.com/JohnDoe/app-Example.git
+git clone <url_del_repositorio>
+```
+## 2. Clonar repositorio
+Descarga un repositorio remoto (por ejemplo, de GitHub, GitLab, etc.) en tu máquina local. Crea una copia completa del repositorio, incluyendo su historial.
+```
+git remote -v
 ```
 ## 3. Actualizar 
 * ### Repositorio Github
